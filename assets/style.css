@@ -1,0 +1,62 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display: grid;
+    /* Ressource unité de mesure : 
+    https://www.gregoirenoyelle.com/unite-de-mesure-fr-css-grid-layout/ */
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows : 1fr 1fr 1fr;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    width : 1000px;
+    height: 420px;
+    margin: 5px;
+    padding: 15px;
+}
+
+#box1 {
+    background-color: #B03432;
+    height: 120px;
+}
+#box2 {
+    background-color: #34A8A6;
+    height: 120px;
+}
+#box3 {
+    background-color: #31997A;
+    height: 120px;
+}
+#box4 {
+    background-color: #6C478F;
+    height: 120px;
+}
+#box5 {
+    background-color: #D96F2C;
+    height: 120px;
+}
+#box6 {
+    background-color: #3D8BB2;
+    height: 120px;
+}
+#box7 {
+    background-color: #E23F3F;
+    height: 120px;
+}
+#box8 {
+    background-color: #58A629;
+    height: 120px;
+}
+#box9 {
+    background-color: #4464A1;
+    height: 120px;
+}
+.number {
+    padding : 40px;
+    font-size: 40px;
+    color: #ffffff;
+}
